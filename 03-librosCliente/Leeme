@@ -1,0 +1,12 @@
+	1- Crear e proyecto y añadir la dependencia Spring Web, solo necesitamos este en este caso
+	2-Definir el modelo
+	3 Trabajar la capa de servicio
+		3.1: Crear el paquete de servicio y la interfaz 
+		3.2: Crear la clase va a implementar los metodos
+	4 Crear  e implementar el controlador 
+	5- Configuraciones
+			5.1 Indicar paquetes a escanear
+			5.2 Crear el @Bean del RestTemplate
+			5.3 Asignar un numero de puerto valido y que esté libre con el (server.port =) dentro del application properties
+6-Probar Postman
+http://localhost:9090/ejemplar/345/tematica345
